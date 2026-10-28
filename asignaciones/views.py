@@ -11,7 +11,7 @@ from rest_framework import status
 
 from .models import Asignacion
 from .serializers import AsignacionSerializer
-from becagest.permisos import es_encargado
+from .permisos import es_encargado
 
 
 @api_view(['GET', 'POST'])
